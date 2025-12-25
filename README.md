@@ -38,6 +38,7 @@ npm run dev
 The application will start on a local development server.
 
 # Project Structure
+```text
 project-mathura/
 │
 ├── node_modules/              # Installed dependencies
@@ -72,7 +73,6 @@ project-mathura/
 └── README.md                  # Documentation
 
 
-
 # Project Objective
 The goal of Project Mathura is to demonstrate how modern web technologies can be used to digitally preserve and present cultural heritage in an engaging and interactive format.
 
@@ -83,6 +83,7 @@ Educational storytelling platforms
 Tourism promotion websites
 
 Frontend portfolio projects
+
 
 
 
