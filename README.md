@@ -1,4 +1,3 @@
-Project Mathura 🛕
 Project Mathura is a modern, immersive web experience that presents the cultural, historical, and spiritual heritage of Mathura through visual storytelling. The project focuses on smooth scrollytelling, rich media backgrounds, and a responsive design to create an engaging user experience.
 
 🌟 Features
@@ -84,4 +83,5 @@ Educational storytelling platforms
 Tourism promotion websites
 
 Frontend portfolio projects
+
 
