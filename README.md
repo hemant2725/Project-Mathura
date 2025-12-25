@@ -1,6 +1,6 @@
 Project Mathura is a modern, immersive web experience that presents the cultural, historical, and spiritual heritage of Mathura through visual storytelling. The project focuses on smooth scrollytelling, rich media backgrounds, and a responsive design to create an engaging user experience.
 
-#🌟Features
+# Features
 Immersive scrollytelling-based UI
 High-quality video and image backgrounds
 Smooth animations and transitions
@@ -8,21 +8,21 @@ Fully responsive design for all devices
 Optimized performance using modern frontend tooling
 Clean and modular project structure
 
-#🛠️Tech Stack
+# Tech Stack
 HTML5 – Semantic and accessible markup
 CSS3 – Responsive layouts and modern styling
 React – Component-based UI development
 TypeScript – Type-safe and scalable frontend code
 JavaScript (ES6+) – Modern language features and async workflows
 
-#🚀Getting Started
+# Getting Started
 Follow these steps to run the project locally:
 
-#Prerequisites
+# Prerequisites
 Node.js (v16 or above)
 npm or yarn
 
-#Installation
+# Installation
 # Clone the repository
 git clone https://github.com/hemant2725/project-mathura.git
 
@@ -37,7 +37,7 @@ npm run dev
 
 The application will start on a local development server.
 
-#📁 Project Structure
+# Project Structure
 project-mathura/
 │
 ├── node_modules/              # Installed dependencies
@@ -73,16 +73,17 @@ project-mathura/
 
 
 
-#🎯Project Objective
+# Project Objective
 The goal of Project Mathura is to demonstrate how modern web technologies can be used to digitally preserve and present cultural heritage in an engaging and interactive format.
 
-#📌Use Cases
+# Use Cases
 Cultural & heritage websites
 Educational storytelling platforms
 
 Tourism promotion websites
 
 Frontend portfolio projects
+
 
 
 
