@@ -15,6 +15,15 @@ React – Component-based UI development
 TypeScript – Type-safe and scalable frontend code
 JavaScript (ES6+) – Modern language features and async workflows
 
+# Project Objective
+The goal of Project Mathura is to demonstrate how modern web technologies can be used to digitally preserve and present cultural heritage in an engaging and interactive format.
+
+# Use Cases
+Cultural & heritage websites
+Educational storytelling platforms
+Tourism promotion websites
+Frontend portfolio projects
+
 # Getting Started
 Follow these steps to run the project locally:
 
@@ -73,16 +82,6 @@ project-mathura/
 └── README.md                  # Documentation
 
 
-# Project Objective
-The goal of Project Mathura is to demonstrate how modern web technologies can be used to digitally preserve and present cultural heritage in an engaging and interactive format.
-
-# Use Cases
-Cultural & heritage websites
-Educational storytelling platforms
-
-Tourism promotion websites
-
-Frontend portfolio projects
 
 
 
