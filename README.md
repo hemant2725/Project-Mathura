@@ -25,7 +25,7 @@ npm or yarn
 
 Installation
 # Clone the repository
-git clone https://github.com/your-username/project-mathura.git
+git clone https://github.com/hemant2725/project-mathura.git
 
 # Navigate to the project directory
 cd project-mathura
@@ -84,3 +84,4 @@ Educational storytelling platforms
 Tourism promotion websites
 
 Frontend portfolio projects
+
