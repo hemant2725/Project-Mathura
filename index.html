@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Mathura | Seva as Devotion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              plum: {
+                50: '#fdf2f7',
+                100: '#fbe6ef',
+                200: '#f8cde1',
+                300: '#f3a4c9',
+                400: '#eb6ead',
+                500: '#db448f',
+                600: '#c52d72',
+                700: '#a6215b',
+                800: '#8a1e4d',
+                900: '#731d43',
+                950: '#580b32',
+              },
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --stone-50: #fafaf9;
+        --stone-900: #1c1917;
+        --stone-950: #0c0a09;
+        --plum-logo: #580b32;
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--stone-950);
+        color: #e7e5e4;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, h4, .serif {
+        font-family: 'Playfair Display', serif;
+      }
+      
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .reveal {
+        opacity: 0;
+        animation: fadeInUp 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        will-change: transform, opacity;
+      }
+
+      .hero-reveal {
+        opacity: 0;
+        animation: fadeInUp 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        will-change: transform, opacity;
+      }
+
+      .delay-1 { animation-delay: 0.1s; }
+      .delay-2 { animation-delay: 0.2s; }
+      .delay-3 { animation-delay: 0.3s; }
+
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: var(--stone-950); }
+      ::-webkit-scrollbar-thumb { background: #332d2b; border-radius: 10px; }
+      ::-webkit-scrollbar-thumb:hover { background: var(--plum-logo); }
+
+      @media (prefers-reduced-motion: reduce) {
+        :root { scroll-behavior: auto; }
+        .reveal, .hero-reveal {
+          animation: none;
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.3",
+        "react-dom/client": "https://esm.sh/react-dom@^19.2.3/client",
+        "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+        "lucide-react": "https://esm.sh/lucide-react@^0.475.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>
