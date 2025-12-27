@@ -16,7 +16,6 @@
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
 - [Use Cases](#-use-cases)
-- [Contact](#-contact)
 
 ---
 
@@ -139,3 +138,4 @@ project-mathura/
 ├── vite.config.ts             # Vite configuration
 ├── metadata.json              # App / site metadata
 └── README.md                  # Documentation
+
